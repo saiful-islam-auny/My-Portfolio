@@ -18,7 +18,6 @@ environ.Env.read_env()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 ALLOWED_HOSTS = ['https://my-portfolio-xmok.onrender.com', '127.0.0.1', 'localhost']
-CSRF_TRUSTED_ORIGINS = ['https://my-portfolio-xmok.onrender.com']
 
 
 # Quick-start development settings - unsuitable for production
