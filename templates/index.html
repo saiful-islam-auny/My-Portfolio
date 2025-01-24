@@ -1,0 +1,1204 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Saiful Islam Auny</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/open-iconic-bootstrap.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/owl.theme.default.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/aos.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/flaticon.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/icomoon.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Saiful</a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item">
+            <a href="#home-section" class="nav-link"><span>Home</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-section" class="nav-link"><span>About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume-section" class="nav-link"><span>Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#services-section" class="nav-link"><span>Services</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills-section" class="nav-link"><span>Skills</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects-section" class="nav-link"><span>Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#graphic-section" class="nav-link"><span>Graphics</span></a>
+          </li>
+          <!-- <li class="nav-item">
+              <a href="#blog-section" class="nav-link"><span>My Blog</span></a>
+            </li> -->
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link"><span>Contact</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <section id="home-section" class="hero">
+    <div class="home-slider owl-carousel">
+      <!-- First Slide: Full Stack Developer -->
+      <div class="slider-item">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+            data-scrollax-parent="true">
+            <div class="one-third js-fullheight order-md-last img" style="background-image: url('{% static "images/saiful.png" %}')">
+              <div class="overlay"></div>
+            </div>
+            <div class="one-forth d-flex align-items-center ftco-animate"
+              data-scrollax=" properties: { translateY: '70%' }">
+              <div class="text">
+                <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span>Saiful Islam Auny</span></h1>
+                <h2 class="mb-4">A Passionate Full Stack Developer</h2>
+                <h6 class="mb-4">
+                  Skilled in C++, Python, Django, and modern web technologies, with a strong foundation in Data
+                  Structures, Algorithms, and problem-solving to build efficient, scalable web applications.
+                </h6>
+                <p>
+                  <a href="#contact-section" class="btn btn-primary py-3 px-4">Hire Me</a>
+                  <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">View My Work</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Slide: Graphic Designer -->
+      <div class="slider-item">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
+            data-scrollax-parent="true">
+            <div class="one-third js-fullheight order-md-last img" style="background-image: url('{% static 'images/saiful.png' %}')">
+              <div class="overlay"></div>
+            </div>
+            <div class="one-forth d-flex align-items-center ftco-animate"
+              data-scrollax=" properties: { translateY: '70%' }">
+              <div class="text">
+                <span class="subheading">Hi there!</span>
+                <h1 class="mb-4 mt-3">
+                  I'm a <span>Creative Graphic Designer</span>
+                </h1>
+                <h2 class="mb-4">
+                  Bringing Ideas to Life Through Visual Design
+                </h2>
+                <h6 class="mb-4">
+                  I design visually appealing graphics and branding materials
+                  that effectively communicate your vision, ensuring a lasting
+                  impact.
+                </h6>
+                <p>
+                  <a href="#contact-section" class="btn btn-primary py-3 px-4">Hire Me</a>
+                  <a href="#graphic-section" class="btn btn-white btn-outline-white py-3 px-4">Explore My Designs</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% comment %} About section start {% endcomment %}
+  <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row d-flex">
+            <!-- Left Section: Image -->
+            <div class="col-md-6 col-lg-5 d-flex">
+                <div class="img-about d-flex align-items-stretch">
+                    <img src="{% static 'images/saiful.png' %}" alt="Saiful Islam Auny" class="img-fluid" />
+                </div>
+            </div>
+
+            <!-- Right Section: About Content -->
+            <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                <div class="row justify-content-start pb-3">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <h1 class="big">About Me</h1>
+                        <h2 class="mb-4">Who I Am</h2>
+                        <p style="text-align: justify;">
+                            Hi, I’m <strong>Saiful Islam Auny</strong>, a passionate Full Stack Developer, Problem Solver, and
+                            Professional Graphic Designer with over a decade of experience turning ideas into reality. With
+                            expertise in C++, Python, Django, Data Structures, Algorithms, and modern web technologies, I excel at
+                            building dynamic, responsive websites and scalable web applications. As an expert in logo design and
+                            branding, I bring creativity and innovation to every project, crafting visually compelling solutions
+                            that leave a lasting impression.
+                        </p>
+
+                        <ul class="about-info mt-4 px-md-0 px-2">
+                            <li class="d-flex">
+                                <span>Name:</span> <span>Saiful Islam Auny</span>
+                            </li>
+                            <li class="d-flex">
+                                <span>Date of Birth:</span> <span>December 01, 2002</span>
+                            </li>
+                            <li class="d-flex">
+                                <span>Location:</span> <span>Purbo Bania Khamar, Khulna-9100, Bangladesh</span>
+                            </li>
+                            <li class="d-flex">
+                                <span>Email:</span> <span>saifulislamauny@gmail.com</span>
+                            </li>
+                            <li class="d-flex">
+                                <span>Phone:</span> <span>+8801533-580966</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="counter-wrap ftco-animate d-flex mt-md-3">
+                    <div class="text">
+                        <p class="mb-4">
+                            <span class="number" data-number="12">0</span>
+                            <span>Projects Completed</span>
+                        </p>
+                        <p>
+                            <a href="{% static 'pdf/Saiful_Islam_Auny_Resume.pdf' %}" download="Saiful_Islam_Auny.pdf" class="btn btn-primary py-3 px-3">
+                                Download CV
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+  
+
+  <section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+      <!-- Heading Section -->
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-10 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Resume</h1>
+          <h2 class="mb-4">Resume</h2>
+          <p>
+            With a strong educational background and hands-on professional
+            experience, I bring a well-rounded skill set to every project I
+            undertake. Explore my journey through education and work
+            experiences.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Education Section -->
+        <div class="col-md-6">
+          <h3 class="mb-4">Education & Courses</h3>
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2023 - 2024</span>
+            <h2>CSE Fundamentals with Phitron
+              <a href="https://drive.google.com/file/d/1qkKOvW2ZK07Hr93rXiElSEAmnPCuqn03/view?usp=drive_link"
+                target="_blank" style="font-size: 14px; color: #ffbd39; text-decoration: none;">(Certificate)</a>
+            </h2>
+            <span class="position">Programming Hero</span>
+            <p class="mt-4">
+              Completed a comprehensive course in Computer Science Engineering fundamentals with Phitron. Gained a
+              strong understanding of core concepts, including data structures, algorithms, object-oriented programming,
+              and system design. The course equipped me with practical skills to solve complex problems and laid the
+              foundation for advanced studies in software development and engineering.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2021 - 2024</span>
+            <h2>B.Sc. in Computer Science & Engineering</h2>
+            <span class="position">North Western University, Khulna</span>
+            <p class="mt-4">
+              Completed my undergraduate studies focusing on software
+              development, web technologies, data structures, and algorithms,
+              with hands-on project experience.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2018 - 2019</span>
+            <h2>Higher Secondary Certificate (HSC)</h2>
+            <span class="position">Bangladesh Navy College, Khulna</span>
+            <p class="mt-4">
+              Specialized in science with a strong foundation in mathematics,
+              physics, and computer science.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2007 - 2017</span>
+            <h2>Secondary School Certificate (SSC)</h2>
+            <span class="position">
+              Khulna Alia Kamil Madrasah</span>
+            <p class="mt-4">
+              Excelled in academic studies with a focus on science, earning
+              distinctions in several subjects.
+            </p>
+          </div>
+        </div>
+
+        <!-- Work Experience Section -->
+        <div class="col-md-6">
+          <h3 class="mb-4">My Expertise</h3>
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2023 - Present</span>
+            <h2>Full Stack Developer</h2>
+            <span class="position">C++ | Python | DRF | HTML | CSS | JS | Bootstrap</span>
+            <p class="mt-4">
+              Developing dynamic, responsive websites and applications using modern technologies like Django, REST
+              frameworks And React, HTML, CSS, JavaScript. Specializing in creating high quality, scalable, and
+              user-friendly software solutions.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2021 - Present</span>
+            <h2>Problem Solving</h2>
+            <span class="position">LeetCode | Codeforces | HackerRank</span>
+            <p class="mt-4">
+              Since 2021, I have been actively solving problems on platforms like LeetCode, HackerRank, and Codeforces.
+              I have participated in competitive programming contests, achieving strong results and continuously
+              improving my problem solving skills through diverse challenges.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2023 - Present</span>
+            <h2>Machine Learning & Data Science</h2>
+            <span class="position">Python | NumPy | scikit-learn | NLP | Data Analysis</span>
+            <p class="mt-4">
+              Since 2021, I have been actively solving problems on platforms like LeetCode, HackerRank, and Codeforces.
+              I have participated in competitive programming contests, achieving strong results and continuously
+              improving my problem-solving skills through diverse challenges.
+            </p>
+          </div>
+
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2019 - Present</span>
+            <h2>Graphic Designer</h2>
+            <span class="position">Adobe Illustrator | Adobe Photoshop | Logo Design </span>
+            <p class="mt-4">
+              Freelanced on platforms like Fiverr and Freelancer.com, specializing in logo design and branding.
+              Experienced in creating business cards, banners, social media graphics, and marketing materials,
+              delivering creative and professional designs tailored to clients' needs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- CV Download Button -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6 text-center ftco-animate">
+          <p>
+            
+          <a href="{% static 'pdf/Saiful_Islam_Auny_Resume.pdf' %}" download="Saiful_Islam_Auny.pdf" class="btn btn-primary py-4 px-5">
+                Download CV
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section" id="services-section">
+    <div class="container">
+      <!-- Heading Section -->
+      <div class="row justify-content-center py-5 mt-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Services</h1>
+          <h2 class="mb-4">Services</h2>
+          <p>
+            I provide a variety of professional services, leveraging my
+            technical and creative expertise to deliver impactful solutions.
+          </p>
+        </div>
+      </div>
+
+      <!-- Services Section -->
+      <div class="row">
+        <!-- Full-Stack Developer -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-ideas"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Full-Stack Development</h3>
+              <p>
+                Building dynamic web applications with Django, React, and modern web technologies, focusing on both
+                front-end and back-end development.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Backend Developer -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-analysis"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Backend Development</h3>
+              <p>
+                Specializing in building robust server-side applications using Django, Python, and database management,
+                focusing on developing scalable APIs and seamless data handling.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Frontend Developer -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-ideas"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Frontend Development</h3>
+              <p>
+                Creating responsive and interactive user interfaces with React, HTML, CSS, and JavaScript, ensuring a
+                seamless and engaging user experience.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Data Science & Machine Learning -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-analysis"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Data Science & Machine Learning</h3>
+              <p>
+                Specializing in data cleaning, uncovering patterns, and building predictive models to extract valuable
+                insights through machine learning.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Graphic Designer -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-ideas"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Graphic Design</h3>
+              <p>
+                Designing visually appealing graphics and branding materials
+                that effectively communicate your vision.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Logo Design -->
+        <div class="col-md-4 text-center d-flex ftco-animate">
+          <a href="#services-section" class="services-1">
+            <span class="icon">
+              <i class="flaticon-analysis"></i>
+            </span>
+            <div class="desc">
+              <h3 class="mb-5">Logo Design</h3>
+              <p>
+                Crafting unique and memorable logos that effectively represent your brand's identity.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skill section start -->
+
+  <section class="ftco-section" id="skills-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Skills</h1>
+          <h2 class="mb-4">My Skills</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <!-- Skill Cards -->
+        <div class="col-md-2 col-4">
+          <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="70"
+              height="70" />
+          </a>
+          <h6>C</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+              alt="C++" width="70" height="70" />
+          </a>
+          <h6>C++</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon" src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="70"
+              height="70" />
+          </a>
+          <h6>Django</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.python.org" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+              alt="Python" width="70" height="70" />
+          </a>
+          <h6>Python</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+              alt="HTML5" width="70" height="70" />
+          </a>
+          <h6>HTML5</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+              alt="CSS3" width="70" height="70" />
+          </a>
+          <h6>CSS3</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+            <img class="skill-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+              alt="Bootstrap" width="70" height="70" />
+          </a>
+          <h6>Bootstrap</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+              alt="JavaScript" width="70" height="70" />
+          </a>
+          <h6>JavaScript</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+              alt="Tailwind CSS" width="70" height="70" />
+          </a>
+          <h6>Tailwind CSS</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+              alt="MySQL" width="70" height="70" />
+          </a>
+          <h6>MySQL</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+              alt="PostgreSQL" width="70" height="70" />
+          </a>
+          <h6>PostgreSQL</h6>
+        </div>
+        <div class="col-md-2 col-4">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+              alt="GitHub" width="70" height="70" />
+          </a>
+          <h6>GitHub</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/120px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png"
+              alt="Microsoft Word" width="70" height="70" />
+          </a>
+          <h6>Microsoft Word</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/120px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png"
+              alt="Microsoft Excel" width="70" height="70" />
+          </a>
+          <h6>Microsoft Excel</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/120px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png"
+              alt="Microsoft PowerPoint" width="70" height="70" />
+          </a>
+          <h6>Microsoft PowerPoint</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.adobe.com/products/illustrator.html" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/220px-Adobe_Illustrator_CC_icon.svg.png"
+              alt="Adobe Illustrator" width="70" height="70" />
+          </a>
+          <h6>Adobe Illustrator</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.adobe.com/products/photoshop.html" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/120px-Adobe_Photoshop_CC_icon.svg.png"
+              alt="Adobe Photoshop" width="70" height="70" />
+          </a>
+          <h6>Adobe Photoshop</h6>
+        </div>
+
+        <div class="col-md-2 col-4">
+          <a href="https://www.canva.com/" target="_blank" rel="noreferrer">
+            <img class="skill-icon"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Canva_Logo.svg/160px-Canva_Logo.svg.png"
+              alt="Canva" width="70" height="70" />
+          </a>
+          <h6>Canva</h6>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- skill section end -->
+
+  <!-- project section -->
+  <section class="ftco-section ftco-project" id="projects-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Projects</h1>
+          <h2 class="mb-4">My Projects</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Project Card -->
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="card-header">
+              <img src="{% static 'images/foodoni.png' %}" alt="Project 1" class="project-image" />
+              <div class="overlay">
+                <a href="https://foodoni.netlify.app/" target="_blank" class="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/saiful-islam-auny/FooDooni-Food-Shop-DRF" target="_blank" class="btn btn-secondary">GitHub Code</a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title" style="color: #ffbd39">Foodoni</h3>
+              <p class="project-description" style="color: white">
+                A feature-rich platform with secure user authentication via email verification. Highlights include a
+                dynamic menu with category filters, a cart system for easy ordering, and a "Specials" section for
+                discounts. Users can track order history, leave reviews, and enjoy real-time cost calculation with
+                delivery estimation.
+              </p>
+              <p class="project-tech">
+              <div class="project-tech">
+                <span class="tech-box">Python</span>
+                <span class="tech-box">Django REST framework</span>
+                <span class="tech-box">HTML</span>
+                <span class="tech-box">CSS</span>
+                <span class="tech-box">Bootstrap</span>
+                <span class="tech-box">JavaScript</span>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Repeat for other projects -->
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="card-header">
+              <img src="{% static 'images/funnybunny.png' %}" alt="Project 2" class="project-image" />
+              <div class="overlay">
+                <a href="https://funny-bunny-ae8g.onrender.com" target="_blank" class="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/saiful-islam-auny/Funny-Bunny" target="_blank"
+                  class="btn btn-secondary">GitHub Code</a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title" style="color: #ffbd39">Funny Bunny</h3>
+              <p class="project-description" style="color: white">
+                A vibrant meme-sharing platform built with Django's MVT architecture, HTML, CSS, and Bootstrap. It
+                features user authentication, enabling users to post memes, react, comment, and share them on their
+                profiles, fostering an engaging and interactive community.
+              </p>
+              <p class="project-tech">
+              <div class="project-tech">
+                <span class="tech-box">Python</span>
+                <span class="tech-box">Django</span>
+                <span class="tech-box">HTML</span>
+                <span class="tech-box">CSS</span>
+                <span class="tech-box">Bootstrap</span>
+                <span class="tech-box">JavaScript</span>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="project-card">
+            <div class="card-header">
+              <img src="images/project-1.jpg" alt="Project 3" class="project-image" />
+              <div class="overlay">
+                <a href="https://livedemo-link.com" target="_blank" class="btn btn-primary">Live Demo</a>
+                <a href="https://github.com/repository-link" target="_blank" class="btn btn-secondary">GitHub Code</a>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="project-title" style="color: #ffbd39">Easy Care Hospital</h3>
+              <p class="project-description" style="color: white">
+                This Project is Currently on Working ...
+              </p>
+              <p class="project-tech">
+              <div class="project-tech">
+                <span class="tech-box">HTML</span>
+                <span class="tech-box">CSS</span>
+                <span class="tech-box">JavaScript</span>
+              </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- project section end -->
+   
+
+  <!-- graphic design section start -->
+  <section class="ftco-section ftco-project" id="graphic-section">
+    <div class="container">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Graphic Design</h1>
+          <h2 class="mb-4">My Graphic Design</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        {% load static %}
+        <div class="col-md-4">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+          style="background-image: url('{% static 'images/logo1.jpg' %}')">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+            style="background-image: url('{% static 'images/logo2.jpg' %}')">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+          style="background-image: url('{% static 'images/businesscard2.jpg' %}')">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+
+          <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+          style="background-image: url('{% static 'images/businesscard1.jpg' %}')">
+            <div class="overlay"></div>
+            <div class="text text-center p-4">
+              <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+              <span>Web Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+                style="background-image: url('{% static 'images/logo3.jpg' %}')">
+                <div class="overlay"></div>
+                <div class="text text-center p-4">
+                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+                  <span>Web Design</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="project img ftco-animate d-flex justify-content-center align-items-center"
+              style="background-image: url('{% static 'images/logo4.jpg' %}')">
+                <div class="overlay"></div>
+                <div class="text text-center p-4">
+                  <h3><a href="#">Branding &amp; Illustration Design</a></h3>
+                  <span>Web Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- graphic design section end -->
+
+  <!-- blog section strat -->
+
+  <!-- <section class="ftco-section" id="blog-section">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h1 class="big big-2">Blog</h1>
+            <h2 class="mb-4">Our Blog</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="single.html"
+                class="block-20"
+                style="background-image: url('images/image_1.jpg')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <div class="d-flex align-items-center mb-3 meta">
+                  <p class="mb-0">
+                    <span class="mr-2">June 21, 2019</span>
+                    <a href="#" class="mr-2">Admin</a>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </p>
+                </div>
+                <h3 class="heading">
+                  <a href="single.html"
+                    >Why Lead Generation is Key for Business Growth</a
+                  >
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a
+                href="single.html"
+                class="block-20"
+                style="background-image: url('images/image_2.jpg')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <div class="d-flex align-items-center mb-3 meta">
+                  <p class="mb-0">
+                    <span class="mr-2">June 21, 2019</span>
+                    <a href="#" class="mr-2">Admin</a>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </p>
+                </div>
+                <h3 class="heading">
+                  <a href="single.html"
+                    >Why Lead Generation is Key for Business Growth</a
+                  >
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry">
+              <a
+                href="single.html"
+                class="block-20"
+                style="background-image: url('images/image_3.jpg')"
+              >
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <div class="d-flex align-items-center mb-3 meta">
+                  <p class="mb-0">
+                    <span class="mr-2">June 21, 2019</span>
+                    <a href="#" class="mr-2">Admin</a>
+                    <a href="#" class="meta-chat"
+                      ><span class="icon-chat"></span> 3</a
+                    >
+                  </p>
+                </div>
+                <h3 class="heading">
+                  <a href="single.html"
+                    >Why Lead Generation is Key for Business Growth</a
+                  >
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies it
+                  with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  <!-- blog section end -->
+
+  <!-- <section
+      class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img"
+      id="section-counter"
+    >
+      <div class="container">
+        <div class="row d-md-flex align-items-center">
+          <div
+            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="100">0</strong>
+                <span>Awards</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1200">0</strong>
+                <span>Complete Projects</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="1200">0</strong>
+                <span>Happy Customers</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md d-flex justify-content-center counter-wrap ftco-animate"
+          >
+            <div class="block-18">
+              <div class="text">
+                <strong class="number" data-number="500">0</strong>
+                <span>Cups of coffee</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+  {% comment %} <section class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 ftco-animate text-center">
+          <h2>I'm <span>Available</span> for freelancing</h2>
+          <p>
+            A small river named Duden flows by their place and supplies it
+            with the necessary regelialia.
+          </p>
+          <p class="mb-0">
+            <a href="#" class="btn btn-primary py-3 px-5">Hire me</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section> {% endcomment %}
+
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <p>
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia
+          </p>
+        </div>
+      </div>
+
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-map-signs"></span>
+            </div>
+            <h3 class="mb-4">Address</h3>
+            <p>Purbo Bania Khamar, Khulna-9100, Bangladesh</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-phone2"></span>
+            </div>
+            <h3 class="mb-4">Contact Number</h3>
+            <p><a href="tel://1234567920">+8801533-580966</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-paper-plane"></span>
+            </div>
+            <h3 class="mb-4">Email Address</h3>
+            <p><a href="mailto:saifulislamauny@gmail.com">saifulislamauny@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          <div class="align-self-stretch box p-4 text-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="icon-globe"></span>
+            </div>
+            <h3 class="mb-4">Website</h3>
+            <p><a href="#">yoursite.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row no-gutters block-9">
+        {% comment %} <div class="col-md-3 d-flex">
+          <div class="img" style="background-image: url(images/saiful.png)"></div>
+        </div> {% endcomment %}
+
+        <form id="contactForm" class="p-4 p-md-5 contact-form">
+          {% csrf_token %}
+          <h3 class="mb-4 text-center">Get in touch with us</h3>
+          <div class="form-group">
+            <input type="text" class="form-control" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary py-3 px-5">Send Message</button>
+          </div>
+        </form>
+    </div>
+  </section>
+
+  <footer class="ftco-footer ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">About</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-twitter"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-instagram"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-4">
+            <h2 class="ftco-heading-2">Links</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Services</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Web
+                  Design</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Web
+                  Development</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Business
+                  Strategy</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Data
+                  Analysis</a>
+              </li>
+              <li>
+                <a href="#"><span class="icon-long-arrow-right mr-2"></span>Graphic
+                  Design</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Have a Questions?</h2>
+            <div class="block-23 mb-3">
+              <ul>
+                <li>
+                  <span class="icon icon-map-marker"></span><span class="text">Purbo Bania Khamar, Khulna-9100, Bangladesh</span>
+                </li>
+                <li>
+                  <a href="#"><span class="icon icon-phone"></span><span class="text">+8801533-580966</span></a>
+                </li>
+                <li>
+                  <a href="#"><span class="icon icon-envelope"></span>
+                    <span class="text">saifulislamauny@gmail.com</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | This template is made with
+            <i class="icon-heart color-danger" aria-hidden="true"></i> by
+            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg>
+  </div>
+
+  <!-- JS -->
+  <script src="{% static 'js/app.js' %}"></script>
+  <script src="{% static 'js/jquery.min.js' %}"></script>
+  <script src="{% static 'js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}"></script>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'js/jquery.waypoints.min.js' %}"></script>
+  <script src="{% static 'js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+  <script src="{% static 'js/aos.js' %}"></script>
+  <script src="{% static 'js/jquery.animateNumber.min.js' %}"></script>
+  <script src="{% static 'js/scrollax.min.js' %}"></script>
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
