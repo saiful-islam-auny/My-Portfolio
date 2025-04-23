@@ -11009,6 +11009,7 @@ h5,
   height: 750px;
   z-index: 0;
 }
+
 .owl-carousel.home-slider .slider-item {
   background-size: cover;
   background-repeat: no-repeat;
@@ -12855,3 +12856,6 @@ textarea.form-control {
   color: #fff;
 }
 /* project section end */
+.slider-item {
+  overflow-y: auto;
+}

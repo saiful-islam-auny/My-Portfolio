@@ -2168,7 +2168,6 @@ select.form-control:focus::-ms-value {
 }
 
 .form-control-plaintext {
-
   display: block;
   width: 100%;
   padding-top: 0.375rem;
@@ -12279,7 +12278,6 @@ textarea.form-control {
   }
 }
 
-
 /* contact form  */
 
 .contact-section .contact-info p a {
@@ -12298,7 +12296,7 @@ textarea.form-control {
   width: 100%;
   padding: 15px;
   margin-bottom: 1.5rem;
-  border: 2px solid rgba(255, 255, 255, 0.8); 
+  border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 5px;
   background: none;
   color: #ffffff;
@@ -12336,7 +12334,11 @@ textarea.form-control {
 }
 
 .contact-section .contact-form .btn-primary:hover {
-  background: linear-gradient(135deg, #ffd966, #ffbd39); /* Reverse gradient on hover */
+  background: linear-gradient(
+    135deg,
+    #ffd966,
+    #ffbd39
+  ); /* Reverse gradient on hover */
   box-shadow: 0 8px 15px rgba(255, 189, 57, 0.3); /* Hover shadow effect */
 }
 
@@ -12346,7 +12348,6 @@ textarea.form-control {
     width: 100%;
   }
 }
-
 
 .block-9 .form-control {
   outline: none !important;
@@ -12709,7 +12710,8 @@ textarea.form-control {
   border-radius: 15px; /* More pronounced rounded corners */
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1); /* Soft shadow for a 3D effect */
-  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease,
+    background-color 0.4s ease;
   /* backdrop-filter: blur(5px); */
   padding: 20px;
   color: #fff;
@@ -12746,8 +12748,6 @@ textarea.form-control {
   color: #fff; /* Light text on hover */
 }
 
-
-
 .card-header {
   position: relative;
 }
@@ -12757,7 +12757,6 @@ textarea.form-control {
   height: auto;
   object-fit: cover;
 }
-
 
 .overlay {
   position: absolute;
@@ -12826,3 +12825,6 @@ textarea.form-control {
 }
 
 /* project section end */
+.slider-item {
+  overflow-y: auto;
+}
